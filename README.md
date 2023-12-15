@@ -19,6 +19,7 @@ To execute Test Suite
 ```python
 robot -i LOGIN -d Results .\tests\ 
 ```
+OR
 ```python
 run run-serial.bat 
 ```
