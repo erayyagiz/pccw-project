@@ -1,0 +1,15 @@
+PyCharm IDE -->
+1.	Run test cases --
+	(a)	Simple from TestCase folder- 
+		robot .\TC_Users.robot
+					
+	(b)	To get Reports in reports folder- 
+		robot -d ..\Reports .\TC_Users.robot
+
+2.	Get Keyword_Documentation.html--
+	(a) To get html file in specific folder-
+		libdoc keyword_filename.robot  keyword_filename.html 
+		libdoc ..\Keywords\Keyword_Common.robot ..\Keyword_Documentation\Keyword_Common.html
+	
+3.	Generate All Tags Documentation--
+		python .\runner\Extract_TestCase_Tags.py
