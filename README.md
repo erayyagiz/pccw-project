@@ -16,12 +16,14 @@ pip install -r requirements.txt
 
 ## Usage
 To execute Test Suite
+
+1. You can use the following command in the terminal
 ```python
 robot -i LOGIN -d Results .\tests\ 
 ```
-OR
+2. You can use the bat file under .\runner folder
 ```python
-run run-serial.bat 
+.\run-serial.bat
 ```
 
 ## Report
